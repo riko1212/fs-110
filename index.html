@@ -4,29 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chocolate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <!-- <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">How it’s made?</a></li>
-        <li><a href="">Chocolate is loved</a></li>
-      </ul> -->
-      <nav>
-        <a href=""
-          >SIMPLY CHOCOLATE
+    <header class="header">
+      <nav class="header-navigation">
+        <a class="header-logo" href=""
+          ><span class="header-logo-italic">SIMPLY</span> CHOCOLATE
           <img src="./images/chocolate-icon.svg" alt="logo icon" />
         </a>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">How it’s made?</a></li>
-          <li><a href="">Chocolate is loved</a></li>
+        <ul class="header-menu-list">
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="">Home</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="">How it’s made?</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="">Chocolate is loved</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="" target="_blank" rel="noopener noreferrer">insta</a></li>
-        <li><a href="" target="_blank" rel="noopener noreferrer">fb</a></li>
-        <li><a href="" target="_blank" rel="noopener noreferrer">twit</a></li>
+      <ul class="header-soc-list">
+        <li class="header-soc-item">
+          <a
+            class="header-soc-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >insta</a
+          >
+        </li>
+        <li class="header-soc-item">
+          <a
+            class="header-soc-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >fb</a
+          >
+        </li>
+        <li class="header-soc-item">
+          <a
+            class="header-soc-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >twit</a
+          >
+        </li>
       </ul>
     </header>
     <!-- header>(nav>(a>img)+ul>li*3>a)+ul>li*3>a -->
@@ -42,10 +75,10 @@
       </section>
       <section>
         <h2 hidden>Features</h2>
-        <ul>
-          <li>
+        <ul class="list">
+          <li class="item">
             <h3>Unsurpassed taste</h3>
-            <p>
+            <p id="text-one" class="text">
               Crafted with the finest quality cocoa beans and a dedication to
               perfection, each bite is a decadent experience that simply cannot
               be matched. Savor the richness and complexity of our Unsurpassed
@@ -54,7 +87,7 @@
           </li>
           <li>
             <h3>Affordable price</h3>
-            <p>
+            <p id="text-two" class="text">
               Indulge in high-quality chocolate without breaking the bank with
               Simply Chocolate's selection of affordable treats. Enjoy
               mouth-watering truffles and velvety chocolate bars without
@@ -64,7 +97,7 @@
           </li>
           <li>
             <h3>Own production</h3>
-            <p>
+            <p id="text-three" class="text">
               We take pride in our own production process, ensuring that every
               step is carefully crafted to perfection. From selecting the finest
               ingredients to handcrafting each piece, our attention to detail is
@@ -120,8 +153,10 @@
           </li>
         </ul>
       </section>
+      <!-- Section Made -->
       <section id="made">
         <h2>hOW IT’S made?</h2>
+
         <img src="./images/made-img.jpg" width="600" height="400" alt="" />
         <h3>
           Try our chocolates today and discover the perfect balance of flavor
@@ -156,6 +191,7 @@
           </li>
         </ul>
       </section>
+
       <section>
         <h2>chocolate is loved</h2>
         <ul>
@@ -166,6 +202,7 @@
               width="80"
               height="80"
             />
+            <img src="" alt="" width="80" height="80" />
             <h3>Victoria Dobrzhanska</h3>
             <p>
               I love this chocolate bar. Perfect combination of light crispy
