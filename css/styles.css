@@ -28,6 +28,10 @@ h6 {
   margin-bottom: 0;
 }
 
+img {
+  display: block;
+}
+
 /* address {
   font-style: normal;
 } */
@@ -57,6 +61,11 @@ h6 {
   color: #fd9222;
 }
 
+.menu-list {
+  display: flex;
+  gap: 24px;
+}
+
 .menu-link {
   font-weight: 500;
   font-size: 14px;
@@ -78,8 +87,26 @@ h6 {
 /*----------- HEADER----------- */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 32px;
+  /* padding-top: 24px;
+  padding-bottom: 32px; */
+}
+
+.header-container {
+  display: flex;
+  /* align-items: center; */
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-right: 90px;
 }
 
 .header-logo {
@@ -96,6 +123,20 @@ h6 {
 
 .header-menu-link {
   color: #111;
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+
+.header-soc-list {
+  display: flex;
+  gap: 18px;
+}
+
+.header-soc-link {
+  padding-top: 24px;
+  padding-bottom: 32px;
+  display: inline-block;
 }
 
 /*----------- ----------- */
@@ -119,12 +160,23 @@ h6 {
   letter-spacing: -0.03em;
   color: #fff;
   margin-bottom: 32px;
+  max-width: 484px;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
 }
 
 .hero-primary-btn {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
+  padding: 14px 40px;
+  border-radius: 100px;
+  background-color: #fd9222;
+  border: none;
+  margin-right: 14px;
 }
 
 .hero-primary-btn:hover,
@@ -144,6 +196,9 @@ h6 {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
+  padding: 14px 40px;
+  border-radius: 100px;
+  border: 1px solid #fff;
 }
 
 .hero-scroll-btn {
@@ -152,6 +207,7 @@ h6 {
   line-height: 1.29;
   letter-spacing: -0.03em;
   color: #fff;
+  margin-left: auto;
 }
 
 /*----------- ----------- */
@@ -165,9 +221,14 @@ h6 {
 }
 
 .features-list {
+  display: flex;
+  gap: 88px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
 .features-item {
+  width: calc((100% - 2 * 88px) / 3);
 }
 
 .features-subtitle {
@@ -210,12 +271,22 @@ h6 {
 }
 
 .taste-list {
+  display: flex;
+  /* gap: 24px 19px; */
+  column-gap: 19px;
+  row-gap: 24px;
+  flex-wrap: wrap;
 }
 
 .taste-item {
+  border: 1px solid #fd9222;
+  border-radius: 15px;
+  padding: 28px;
+  width: calc((100% - 3 * 19px) / 4);
 }
 
 .taste-image {
+  margin-bottom: 36px;
 }
 
 .taste-subtitle {
