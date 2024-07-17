@@ -8,5 +8,9 @@
     <symbol id="icon-twitter" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M30.667 4a14.37 14.37 0 0 1-4.084 2.013l-.103.027a5.973 5.973 0 0 0-10.479 4.004v-.004 1.333a14.154 14.154 0 0 1-6.838-1.55l.08.037C7.15 8.807 4.683 6.297 3.335 4.38c0 0-4.667 12.953 7.333 18.287a15.387 15.387 0 0 1-9.364 2.666l.031.001c12 6.667 26.667 0 26.667-15.333 0-.372-.037-.741-.107-1.107a10.277 10.277 0 0 0 2.758-4.822l.015-.071z"/>
     </symbol>
+    <symbol id="icon-user" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M26.667 28v-2.667c0-1.415-0.562-2.771-1.562-3.771s-2.357-1.562-3.771-1.562h-10.667c-1.415 0-2.771 0.562-3.771 1.562s-1.562 2.357-1.562 3.771v2.667"></path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M16 14.667c2.945 0 5.333-2.388 5.333-5.333s-2.388-5.333-5.333-5.333c-2.946 0-5.333 2.388-5.333 5.333s2.388 5.333 5.333 5.333z"></path>
+    </symbol>
   </defs>
 </svg>
